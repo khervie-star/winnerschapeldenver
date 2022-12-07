@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html,
+body,
+* {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+/* This is the CSS for the navbar */
+/* Add a transition to smooth out the color change on scroll */
+.navbar {
+  transition: background-color 0.5s ease-in-out;
+
+  /* Set the initial background color to transparent */
+  background-color: transparent;
+}
+
+/* Add a new class that changes the navbar background color to blue when it is scrolled past a certain threshold */
+.navbar-scrolled {
+  background-color: #0074d9;
+}
